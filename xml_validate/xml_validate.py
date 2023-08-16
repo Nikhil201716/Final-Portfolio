@@ -9,7 +9,8 @@ def validate_xml(xml_filename, xsd_filename):
         print("XML is valid against the XSD schema.")
     else:
         print("XML is not valid against the XSD schema.")
-        print(xsd.error_log)
+        for error in xsd.error_log:
+            print(f"Line {error.line}, Column {error.column}: {error.message}")
 
 if __name__ == "__main__":
     xml_filename = "employees.xml"
