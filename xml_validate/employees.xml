@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="employee_schema.xsd">
+    <employee>
+        <id>1</id>
+        <name>John Doe</name>
+        <position>Manager</position>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <position>Developer</position>
+    </employee>
+</employees>
