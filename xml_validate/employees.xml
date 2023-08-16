@@ -14,7 +14,7 @@
         </employmentInformation>
         <contactInformation>
             <email>john.doe@example.com</email>
-            <phoneNumber>123-456-7890</phoneNumber>
+            <phoneNumber>9876543212</phoneNumber>
         </contactInformation>
     </employee>
     <employee id="2">
@@ -30,7 +30,7 @@
         </employmentInformation>
         <contactInformation>
             <email>jane.smith@example.com</email>
-            <phoneNumber>987-654-3210</phoneNumber>
+            <phoneNumber>9123456789</phoneNumber>
         </contactInformation>
     </employee>
     <!-- Add more employees as needed -->
